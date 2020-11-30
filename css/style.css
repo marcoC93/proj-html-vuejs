@@ -2,7 +2,15 @@ ul {
     list-style-type: none;
     margin-bottom: 0;
 }
-
+.btn-primary {
+    border-radius: 10px;
+    background-color: #1a5eca;
+    border-color: #1a5eca;
+}
+.btn-secondary {
+    background-color: transparent;
+    border-color: transparent;
+}
 /* sezione navbar */
     /* sezione superiore */
 #header-top {
@@ -29,5 +37,7 @@ ul {
 #header-bottom {
     display: flex;
     height: 50px;
+    justify-content: space-around;
+    align-items: center;
     background: blue;
 }
