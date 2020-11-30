@@ -1,17 +1,33 @@
 ul {
     list-style-type: none;
+    margin-bottom: 0;
 }
+
+/* sezione navbar */
+    /* sezione superiore */
 #header-top {
     display: flex;
+    justify-content:space-between;
+    align-items: center;
 
     height: 50px;
     background: red;
 }
+#top-left {
+
+}
+#top-right {
+    display: flex;
+}
+#site-sections {
+    display: flex;
+}
+#social-icons {
+    display: flex;
+}
+    /* sezione inferiore */
 #header-bottom {
     display: flex;
     height: 50px;
     background: blue;
-}
-#social-icons {
-    display: flex;
 }
