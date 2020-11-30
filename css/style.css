@@ -1,0 +1,17 @@
+ul {
+    list-style-type: none;
+}
+#header-top {
+    display: flex;
+
+    height: 50px;
+    background: red;
+}
+#header-bottom {
+    display: flex;
+    height: 50px;
+    background: blue;
+}
+#social-icons {
+    display: flex;
+}
