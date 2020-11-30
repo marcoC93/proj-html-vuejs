@@ -41,3 +41,19 @@ ul {
     align-items: center;
     background: blue;
 }
+/* jumbotron */
+#jumbotron {
+    padding: 20px;
+}
+#jumbo-title {
+    align-self: center;
+}
+.jumbo-card {
+    margin-top: 10px;
+    padding: 10px;
+
+    background-color: #e4e8ed ;
+}
+.jumbo-card i {
+    color: #01d7f5 ;
+}
