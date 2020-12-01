@@ -72,6 +72,11 @@ ul {
 #we-proud {
     padding-top: 30px;
     height: 433px;
-    background-color: #e4e8ed; 
+    background-color: #e4e8ed;
     background-image: url('../img/we_proud.png');
+}
+#newsletter {
+    padding: 25px;
+    /* height: 100px; */
+    background: #4bd7a8;
 }
