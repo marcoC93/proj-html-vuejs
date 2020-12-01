@@ -61,5 +61,17 @@ ul {
     width: 100%;
 }
 #read-more {
-    background-image: url("./img/Untitled-1-1-1-1-1.png");
+    height: 600px;
+
+    background-image: url("../img/Untitled-1-1-1-1-1.png");
+
+}
+#recent-courses {
+    padding: 50px;
+}
+#we-proud {
+    padding-top: 30px;
+    height: 433px;
+    background-color: #e4e8ed; 
+    background-image: url('../img/we_proud.png');
 }
