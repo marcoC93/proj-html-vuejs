@@ -2,6 +2,9 @@ ul {
     list-style-type: none;
     margin-bottom: 0;
 }
+body {
+    font-family: 'Roboto';
+}
 .btn-primary {
     border-radius: 10px;
     background-color: #1a5eca;
@@ -10,6 +13,7 @@ ul {
 .btn-secondary {
     background-color: transparent;
     border-color: transparent;
+    color: inherit;
 }
 /* sezione navbar */
     /* sezione superiore */
@@ -19,27 +23,50 @@ ul {
     align-items: center;
 
     height: 50px;
-    background: red;
+    border-bottom: 1px solid  #97a9ba;
 }
 #top-left {
-
+    width: 30% ;
 }
 #top-right {
+    width: 70%;
     display: flex;
+    justify-content: space-between;
+}
+#top-right a {
+    color: #97a9ba;
 }
 #site-sections {
     display: flex;
+    justify-content: space-around;
+}
+#site-sections li {
+    padding: 0 10px;
+    font-size: 0.7em;
+    color: #97a9ba;
 }
 #social-icons {
     display: flex;
+    justify-content: space-around;
+}
+#social-icons li {
+    padding: 0 10px;
+
 }
     /* sezione inferiore */
 #header-bottom {
+    padding-top: 15px;
     display: flex;
     height: 50px;
     justify-content: space-around;
     align-items: center;
-    background: blue;
+    border-top: 1px solid  #97a9ba;
+}
+#header-bottom i {
+    color: #97a9ba ;
+}
+#login {
+    color: #9dbbe3;
 }
 /* jumbotron */
 #jumbotron {
@@ -51,8 +78,15 @@ ul {
 .jumbo-card {
     margin-top: 10px;
     padding: 10px;
-
+    transition: 1s;
     background-color: #e4e8ed ;
+}
+.jumbo-card h3 {
+    padding: 10px;
+
+}
+.jumbo-card:hover {
+    transform: scale(1.1);
 }
 .jumbo-card i {
     color: #1a5eca ;
@@ -63,10 +97,15 @@ ul {
 /* /Sezione jumbotron */
 
 #read-more {
+    position:relative;
+
     height: 600px;
-
     background-image: url("../img/Untitled-1-1-1-1-1.png");
-
+    background-position: center;
+}
+#read-more-text {
+    position: absolute;
+    top: 100%;
 }
 /* Sezione griglia categorie */
 #categories-grid {
