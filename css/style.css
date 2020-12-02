@@ -78,7 +78,7 @@ body {
 .jumbo-card {
     margin-top: 10px;
     padding: 10px;
-    transition: 1s;
+    transition: 0.7s;
     background-color: #e4e8ed ;
 }
 .jumbo-card h3 {
@@ -94,7 +94,9 @@ body {
 .col-md-8 img {
     width: 100%;
 }
-/* /Sezione jumbotron */
+/* /Sezione "JUMBOTRON" */
+
+/* Sezione "READ MORE" */
 
 #read-more {
     position:relative;
@@ -103,10 +105,19 @@ body {
     background-image: url("../img/Untitled-1-1-1-1-1.png");
     background-position: center;
 }
-#read-more-text {
-    position: absolute;
-    top: 100%;
+
+#read-more .row , .container {
+    height: 100%;
 }
+#read-more-text {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+
+}
+/* /sezione  "READ MORE" */
+
+
 /* Sezione griglia categorie */
 #categories-grid {
 
@@ -119,6 +130,18 @@ body {
 #recent-courses {
     padding: 50px;
 }
+#recent-courses ul {
+    padding: 20px;
+    color: #9dbbe3;
+}
+#recent-courses li {
+    padding: 10px;
+}
+#recent-courses ul li:hover {
+    border-radius: 10px;
+    background-color: #e4e8ed;
+}
+
 .card-footer {
     border: none;
     background: transparent;
@@ -140,9 +163,31 @@ body {
     /* height: 100px; */
     background: #4bd7a8;
 }
+/* popular courses */
+#popular-courses {
+    background-color: #e4e8ed;;
+}
+.arrow-box {
+    display: inline-block;
+    padding: 10px;
+    text-align: center;
+    background: #fff ;
+}
+/*  Sezione "CALL-TO-ACTION" */
+
 #call-to-action {
+    padding: 20px;
+}
+#cta-istructor{
 
 }
+#call-to-action .col-md-4 {
+    float:left;
+
+}
+#call-to-action .col-md-8 {
+float: right;}
+
 #testimonial {
     height: 700px;
     background-image: url("../img/brooke-cagle-224821-unsplash-1-1920x700.jpg");
