@@ -26,8 +26,10 @@
                         <div id="top-right">
                             <!-- sezione lista sezioni sito -->
                             <ul id="site-sections">
-                                <li>course</li>
-                                <li>zom</li>
+                                <li v-for="section in headerList" class="text-capitalize">
+                                    {{section}}
+                                </li>
+
                             </ul>
                             <!-- icone dei vari social -->
                             <ul id="social-icons">
@@ -478,12 +480,9 @@
                         <div class="col-md-3">
                             <h4>pages</h4>
                             <ul>
-                                <li>blog</li>
-                                <li>home</li>
-                                <li>shortcodes</li>
-                                <li>courses</li>
-                                <li>membership</li>
-                                <li>typografy</li>
+                                <li v-for="section in footerList">
+                                    {{section}}
+                                </li>
                             </ul>
                         </div>
                         <div class="col-md-3">
