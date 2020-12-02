@@ -60,12 +60,23 @@ ul {
 .col-md-8 img {
     width: 100%;
 }
+/* /Sezione jumbotron */
+
 #read-more {
     height: 600px;
 
     background-image: url("../img/Untitled-1-1-1-1-1.png");
 
 }
+/* Sezione griglia categorie */
+#categories-grid {
+
+}
+#categories-grid img {
+    padding: 10px;
+    width: 100% ;
+}
+
 #recent-courses {
     padding: 50px;
 }
