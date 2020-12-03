@@ -9,11 +9,24 @@ body {
     border-radius: 10px;
     background-color: #1a5eca;
     border-color: #1a5eca;
+    transition: 1s
+}
+.btn-primary:hover {
+    background-color: #fff;
+    border-color: #fff;
+    color: #1a5eca;
+
 }
 .btn-secondary {
+    transition: 1s;
     background-color: transparent;
     border-color: transparent;
-    color: inherit;
+    color: inherit ;
+}
+.btn-secondary:hover {
+    border-radius: 5px;
+    border-color: #4bd7a8;
+    background-color: #4bd7a8;
 }
 /* sezione navbar */
     /* sezione superiore */
@@ -89,6 +102,7 @@ body {
     transform: scale(1.1);
 }
 .jumbo-card i {
+    padding: 5px;
     color: #1a5eca ;
 }
 .col-md-8 img {
@@ -123,9 +137,10 @@ body {
 
 }
 #categories-grid img {
-    padding: 10px;
     width: 100% ;
+    cursor: pointer;
 }
+#cate
 /*  Sezione recent courses */
 #recent-courses {
     padding: 50px;
@@ -188,17 +203,26 @@ body {
 #popular-courses {
     background-color: #e4e8ed;;
 }
-#popular-courses .col-md-12 {
+#popular-courses .col-md-12 .arrow-box {
+    width: 30px;
+    padding: 15px 25px;
+}
+.navigation-box {
     display: flex;
     justify-content: center;
-    padding: 30px;
 }
 .arrow-box {
     display: inline-block;
     padding: 10px;
-    margin: 10px;
+    margin: 15px;
+    transition: 1s;
+    cursor: pointer;
     text-align: center;
     background: #fff ;
+}
+.arrow-box:hover {
+    background-color: #3c6669;
+    color: #fff ;
 }
 .row h2 {
     padding: 30px 0 ;
