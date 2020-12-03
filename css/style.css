@@ -185,14 +185,19 @@ body {
 
 }
 #we-proud ul {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    display: inline-block;
     width: 100% ;
     height: 100%;
+    text-align: center;
 }
 #we-proud li {
-    font-size: 2em;
+    display: inline-block;
+    padding: 30px;
+
+}
+#we-proud li p {
+    font-size: 3em;
+    font-weight: bold;
 }
 #newsletter {
     padding: 25px;
@@ -237,12 +242,22 @@ body {
 #call-to-action {
     padding: 20px;
 }
-#cta-istructor{
-
+#cta-istructor::after{
+    display: table;
+    content: '' ;
+    clear: both;
+}
+#cta-business::after{
+    display: table;
+    content: '' ;
+    clear: both;
+}
+#cta-business,#cta-istructor {
+    height: 100% ;
 }
 #call-to-action .col-md-4 {
     float:left;
-
+    height: 100% ;
 }
 #call-to-action .col-md-8 {
 float: right;
