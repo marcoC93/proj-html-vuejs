@@ -151,10 +151,15 @@ body {
 }
 #recent-courses li {
     padding: 10px;
+    transition: 0.5s;
 }
 #recent-courses ul li:hover {
     border-radius: 10px;
     background-color: #e4e8ed;
+}
+#recent-courses .col-md-12 {
+    text-align: center;
+    padding: 20px;
 }
 .card {
     margin-top: 20px;
