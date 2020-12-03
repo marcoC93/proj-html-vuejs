@@ -141,6 +141,12 @@ body {
     border-radius: 10px;
     background-color: #e4e8ed;
 }
+.card {
+    margin-top: 20px;
+}
+.card:hover {
+    border-color: #fecc4f ;
+}
 
 .card-footer {
     border: none;
@@ -152,11 +158,26 @@ body {
     margin: 10px auto ;
 }
 /* /Sezione recent courses */
+
+/* Sezione "WE ARE PROUD" */
 #we-proud {
     padding-top: 30px;
     height: 433px;
     background-color: #e4e8ed;
     background-image: url('../img/we_proud.png');
+}
+#we-proud .row {
+
+}
+#we-proud ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100% ;
+    height: 100%;
+}
+#we-proud li {
+    font-size: 2em;
 }
 #newsletter {
     padding: 25px;
@@ -167,11 +188,20 @@ body {
 #popular-courses {
     background-color: #e4e8ed;;
 }
+#popular-courses .col-md-12 {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
 .arrow-box {
     display: inline-block;
     padding: 10px;
+    margin: 10px;
     text-align: center;
     background: #fff ;
+}
+.row h2 {
+    padding: 30px 0 ;
 }
 /*  Sezione "CALL-TO-ACTION" */
 
@@ -186,15 +216,30 @@ body {
 
 }
 #call-to-action .col-md-8 {
-float: right;}
+float: right;
+padding-left: 100px;
+}
 
 #testimonial {
     height: 700px;
     background-image: url("../img/brooke-cagle-224821-unsplash-1-1920x700.jpg");
     background-position: right;
 }
+#testimonial .row {
+    height: 100%
+}
 .box {
     width: 100%;
+    top: 50%;
     height: 500px;
+    padding: 40px;
+    position: relative;
+    transform: translateY(-50%);
     background: #fff;
+}
+footer {
+    padding: 30px;
+}
+footer i,small {
+    color: #97a9ba;
 }
