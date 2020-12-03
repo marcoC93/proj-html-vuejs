@@ -140,7 +140,7 @@ body {
     width: 100% ;
     cursor: pointer;
 }
-#cate
+
 /*  Sezione recent courses */
 #recent-courses {
     padding: 50px;
@@ -198,6 +198,11 @@ body {
     padding: 25px;
     /* height: 100px; */
     background: #4bd7a8;
+}
+#newsletter-button {
+    background-color: #1a5eca;
+    border-color: #1a5eca;
+    color: #fff ;
 }
 /* popular courses */
 #popular-courses {
